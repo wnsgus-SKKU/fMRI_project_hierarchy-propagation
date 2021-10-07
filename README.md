@@ -3,12 +3,10 @@
 ## Paper 
 - Gu, Y., Sainburg, L. E., Kuang, S., Han, F., Williams, J. W., Liu, Y., Zhang, N., Zhang, X., Leopold, D. A., & Liu, X. (2021). Brain Activity Fluctuations Propagate as Waves Traversing the Cortical Hierarchy. Cerebral Cortex , 31(9), 3986–4005. [[Paper](https://academic.oup.com/cercor/article-abstract/31/9/3986/6210040) , [github](https://github.com/YamengGu/the-cross-hierarchy-propagation)]
 
----
  
 ## Dataset
 - [Download](https://drive.google.com/drive/folders/1KP_41R_qzuClfyd7r5CBQ6ULgfl-vfXd?usp=sharing)
 
----
 
 ## Code 
 - [human.py](https://github.com/wnsgus-SKKU/fMRI_project_hierarchy-propagation/blob/master/src/human.py) : the code to project human input data onto a direction and calculate time-position correlation across time segments.
@@ -16,7 +14,7 @@
 - [pd.py](https://github.com/wnsgus-SKKU/fMRI_project_hierarchy-propagation/blob/master/src/pd.py) : the code to calculate the principal delay profile.
 
 - [finction.py](https://github.com/wnsgus-SKKU/fMRI_project_hierarchy-propagation/blob/master/src/function.py) : prerequisites
----
+
 ## Presentation
 ### PPT
 - [view](https://github.com/wnsgus-SKKU/fMRI_project_hierarchy-propagation/blob/master/src/function.py) <!--수정필요-->
