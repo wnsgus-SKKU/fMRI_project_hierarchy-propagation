@@ -37,7 +37,10 @@ def grpstats(epi1msk,pgd1):
 
 def size(data,axis=0):
     if data.ndim == 1:
-        return 1
+        if axis == 0:   
+            return 1
+        elif axis == 1:
+            return data.size
     else :
         return data.shape[axis]
 

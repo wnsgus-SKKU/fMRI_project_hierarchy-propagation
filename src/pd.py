@@ -11,5 +11,6 @@ if __name__ == '__main__':
 
     epi = loadMat(path+"/epi1msk","epi1msk")
     gls_neg_pk,locs = findPeaks(epi.mean(axis=0))
+    print(size(locs,1))
     idx_dly = np.zeros(size(epi,1),size(locs,2)-1)
-    print(idx_dly)
+    print(idx_dly.size)
