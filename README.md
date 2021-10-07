@@ -34,8 +34,8 @@
     4. about PG (background)  
       
 2. Methods and results
-    1. projecting the rsfMRI signals onto the PG direction [(human.py)](https://github.com/wnsgus-SKKU/fMRI_project_hierarchy-propagation/blob/master/src/human.py)
-    2. principal propagating direction in the human rsfMRI signals [(pd.py)](https://github.com/wnsgus-SKKU/fMRI_project_hierarchy-propagation/blob/master/src/pd.py)
+    1. projecting the rsfMRI signals onto the PG direction [(projecting_onto_the_PG.py)](https://github.com/wnsgus-SKKU/fMRI_project_hierarchy-propagation/blob/master/src/human.py)
+    2. principal propagating direction in the human rsfMRI signals [(principal_delay.py)](https://github.com/wnsgus-SKKU/fMRI_project_hierarchy-propagation/blob/master/src/pd.py)
     3. simulation of rsfMRI signals with artificial propagations
     4. principal propagating direction in the monkey ECoG data
     5. fine-scale propagations within sensory modalities in the rsfMRI signals

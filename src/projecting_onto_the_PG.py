@@ -11,9 +11,7 @@ if __name__ == '__main__':
     path ="/home/cjh/skku/2021_second_semester/FMRI/project/Data"
    
     pg1 = loadMat(path+"/pg1","pg1") # principle gradient 1 (vertices * 1)
-    epi = loadMat(path+"/epi1msk","epi1msk") # spatially & temporally smoothed -> zscored data (vertices * time points)s
-
-    ##
+    epi = loadMat(path+"/epi1msk","epi1msk") # spatially & temporally smoothed -> zscored data (vertices * time points)
 
     global_mean_sig = epi.mean(axis=0) # calculate the global mean of input data - Figure 1B middle graph
     
