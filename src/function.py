@@ -2,6 +2,8 @@ import numpy as np
 from scipy import io
 from scipy.io import savemat
 from scipy.signal import find_peaks
+import pandas as pd
+
 
 def loadMat(path,name):
     mat_file1 = io.loadmat(path)
@@ -45,9 +47,17 @@ def size(data,axis=0):
         return data.shape[axis]
 
 
-def findPeaks(data):
-    locs= find_peaks(data)[0]
+def findPeaks(array):
+    locs= find_peaks(array)[0]
     peak = np.array([])
     for i in range(locs.size):
-        peak = np.append(peak,data[locs[i]]) 
+        peak = np.append(peak,array[locs[i]]) 
     return peak,locs
+
+def inpaintNans(array):
+    df = pd.DataFrame(array.astype(np.float)).interpolate()
+    return df.T.to_numpy()
+    
+if __name__ == '__main__':
+    a = np.array([0.0, np.nan, -1.0, 1.0,np.nan, 2.0, np.nan, np.nan,2.0, 3.0, np.nan, 9.0])
+    print(inpaintNans(a))
