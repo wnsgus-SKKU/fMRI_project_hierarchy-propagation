@@ -1,2 +1,5 @@
 *.mat
 *tar.xz
+.vscode
+.gitattributes
+__pycache__
