@@ -17,6 +17,7 @@
 
 - [finction.py](https://github.com/wnsgus-SKKU/fMRI_project_hierarchy-propagation/blob/master/src/function.py) : prerequisites
 
+- Using as a [Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb?hl=ko-kr) [how to?](https://ndb796.tistory.com/562)
 ## Simulation
 - The [Connectome Workbench](http://www.humanconnectome.org/software/connectome-workbench) software is used to display the human brain surface.
 - [Download data](https://github.com/YamengGu/the-cross-hierarchy-propagation/tree/master/Data)
