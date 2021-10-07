@@ -11,9 +11,9 @@
 
 
 ## Code 
-- [human.py](https://github.com/wnsgus-SKKU/fMRI_project_hierarchy-propagation/blob/master/src/human.py) : the code to project human input data onto a direction and calculate time-position correlation across time segments.
+- [projecting_onto_the_PG.py](https://github.com/wnsgus-SKKU/fMRI_project_hierarchy-propagation/blob/master/src/human.py) : the code to project human input data onto a direction and calculate time-position correlation across time segments.
 
-- [pd.py](https://github.com/wnsgus-SKKU/fMRI_project_hierarchy-propagation/blob/master/src/pd.py) : the code to calculate the principal delay profile.
+- [principal_delay.py](https://github.com/wnsgus-SKKU/fMRI_project_hierarchy-propagation/blob/master/src/pd.py) : the code to calculate the principal delay profile.
 
 - [finction.py](https://github.com/wnsgus-SKKU/fMRI_project_hierarchy-propagation/blob/master/src/function.py) : prerequisites
 
