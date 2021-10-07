@@ -5,7 +5,9 @@
 
  
 ## Dataset
-- [Download](https://drive.google.com/drive/folders/1KP_41R_qzuClfyd7r5CBQ6ULgfl-vfXd?usp=sharing)
+- Download
+    - [Input data](https://drive.google.com/drive/folders/1KP_41R_qzuClfyd7r5CBQ6ULgfl-vfXd?usp=sharing)
+    - [Simulation data](https://github.com/YamengGu/the-cross-hierarchy-propagation/tree/master/Data)
 
 
 ## Code 
@@ -14,6 +16,10 @@
 - [pd.py](https://github.com/wnsgus-SKKU/fMRI_project_hierarchy-propagation/blob/master/src/pd.py) : the code to calculate the principal delay profile.
 
 - [finction.py](https://github.com/wnsgus-SKKU/fMRI_project_hierarchy-propagation/blob/master/src/function.py) : prerequisites
+
+## Simulation
+- The [Connectome Workbench](http://www.humanconnectome.org/software/connectome-workbench) software is used to display the human brain surface.
+- [Download data](https://github.com/YamengGu/the-cross-hierarchy-propagation/tree/master/Data)
 
 ## Presentation
 ### PPT
