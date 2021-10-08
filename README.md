@@ -11,7 +11,7 @@
 
 
 ## Code 
-- [projecting_onto_the_PG.py](https://github.com/wnsgus-SKKU/fMRI_project_hierarchy-propagation/blob/master/src/human.py) / [projecting_onto_the_PG.ipynb](https://github.com/wnsgus-SKKU/fMRI_project_hierarchy-propagation/blob/master/src/projecting_onto_the_PG.py) : the code to project human input data onto a direction and calculate time-position correlation across time segments.
+- [projecting_onto_the_PG.py](https://github.com/wnsgus-SKKU/fMRI_project_hierarchy-propagation/blob/master/src/projecting_onto_the_PG.py) / [projecting_onto_the_PG.ipynb](https://github.com/wnsgus-SKKU/fMRI_project_hierarchy-propagation/blob/master/src/projecting_onto_the_PG.ipynb) : the code to project human input data onto a direction and calculate time-position correlation across time segments.
 
 - [principal_delay.py](https://github.com/wnsgus-SKKU/fMRI_project_hierarchy-propagation/blob/master/src/principal_delay.py) / [principal_delay.ipynb](https://github.com/wnsgus-SKKU/fMRI_project_hierarchy-propagation/blob/master/src/principal_delay.ipynb): the code to calculate the principal delay profile.
 
@@ -35,8 +35,8 @@
     4. about PG (background)  
       
 2. Methods and results
-    1. projecting the rsfMRI signals onto the PG direction [(projecting_onto_the_PG.py)](https://github.com/wnsgus-SKKU/fMRI_project_hierarchy-propagation/blob/master/src/human.py)
-    2. principal propagating direction in the human rsfMRI signals [(principal_delay.py)](https://github.com/wnsgus-SKKU/fMRI_project_hierarchy-propagation/blob/master/src/pd.py)
+    1. projecting the rsfMRI signals onto the PG direction [projecting_onto_the_PG.py](https://github.com/wnsgus-SKKU/fMRI_project_hierarchy-propagation/blob/master/src/projecting_onto_the_PG.py) / [projecting_onto_the_PG.ipynb](https://github.com/wnsgus-SKKU/fMRI_project_hierarchy-propagation/blob/master/src/projecting_onto_the_PG.ipynb)
+    2. principal propagating direction in the human rsfMRI signals [principal_delay.py](https://github.com/wnsgus-SKKU/fMRI_project_hierarchy-propagation/blob/master/src/principal_delay.py) / [principal_delay.ipynb](https://github.com/wnsgus-SKKU/fMRI_project_hierarchy-propagation/blob/master/src/principal_delay.ipynb)
     3. simulation of rsfMRI signals with artificial propagations
     4. principal propagating direction in the monkey ECoG data
     5. fine-scale propagations within sensory modalities in the rsfMRI signals
