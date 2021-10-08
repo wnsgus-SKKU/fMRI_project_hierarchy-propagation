@@ -23,8 +23,8 @@
 - [Download data](https://github.com/YamengGu/the-cross-hierarchy-propagation/tree/master/Data)
 
 ## Presentation
-### PPT
-- [view](https://github.com/wnsgus-SKKU/fMRI_project_hierarchy-propagation/blob/master/src/function.py) <!--수정필요-->
+### Notion
+- [view](https://rectangular-flag-d72.notion.site/Cross-Hierarchy-Propagation-cb868980d647468b82195f2b58527103) 
 
 ### Contents
 
